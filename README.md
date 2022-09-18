@@ -1,2 +1,2 @@
-# POKEDEX
+# POKÉDEX
  
