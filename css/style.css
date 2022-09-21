@@ -29,19 +29,32 @@ main {
     position: absolute;
     bottom: 55%;
     left: 50%;
-    transform: tranlate(-63%, 20%);
+    transform: translate(-63%, 20%);
     height: 18%;
 }
 
 .pokemon__data {
     position: absolute;
-    font-height: 600;
+    font-weight: 600;
     color: #aaa;
-    top: 54.5%;
-    height: 27%;
+    top: 52.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px)  /* clamp(min, desejavel, max); */
+    
 }
 
 .pokemon__name {
     color: #3a555d;
     text-transform: capitalize;
+}
+
+.form {
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%
+}
+
+.input__search {
+
 }
