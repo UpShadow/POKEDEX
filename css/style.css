@@ -89,8 +89,7 @@ main {
     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
   }
 
-//active is a pseudo classs
-.button:active {
+.button:active { //active is a pseudo classs
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
 }
@@ -117,7 +116,7 @@ main {
   box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
-.button:active {
+.button:active { //active is a pseudo classs
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
